@@ -14,7 +14,7 @@ article {
 
 .vacancy {
 	background: #6BC097;
-	margin-top: 1em;
+	margin-top: 2em;
 	//padding-left: 2em;
 	padding: 1em 0.5em;
 
@@ -82,14 +82,13 @@ article {
 	padding: 1em 0.5em;
 
 	h3 {
-		margin: 0 0 0 0.5em;
+		margin: 0 0 0 0.2em;
 	}
 }
 
 .cv p {
 	color: #FFF;
 	margin: 0.5em 0 0;
-	padding-left: 3.25em;
 }
 
 .cv-img {
@@ -105,6 +104,17 @@ article {
 	overflow: hidden;
 }
 
+.recommend {
+	text-align: center;
+
+	img{
+		padding: 1em 0 1em 0;
+	}
+}
+
+.recommend-name {
+	color: #6BC097;
+}
 /*.cv p {
 	padding: 0em 2em 1em 4em;
 }

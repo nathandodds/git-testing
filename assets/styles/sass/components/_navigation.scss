@@ -5,7 +5,7 @@
 	list-style: none;
 	margin: 0 auto;
 	//padding: 1em;
-	text-align: center;
+	text-align: left;
 
 	li {
 		color: $brand-color;
@@ -28,7 +28,8 @@
 
 .logo-img a {
 	//float: left;
-	//margin-left: -10px;	
+	//margin-left: -10px;
+	text-align: left;	
 }
 
 .login a {

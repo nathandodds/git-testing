@@ -4,6 +4,7 @@
 	//overflow: hidden;
 	//margin-left: 70px;
 	max-width: 731px;
+	margin-top: 1em;
 }
 
 .article h2 {
@@ -12,7 +13,7 @@
 .services-article {
 	float: left;
 	max-width: 731px;
-}
+}	
 
 .services-article p {
 	max-width: 731px;
@@ -22,45 +23,50 @@
 	color:#FFF;
 	text-decoration:none;
 }
-
-.emerg-supply {
+/*
+.service-btn {
 	background: #384A53;
-	max-width: 731px;
 	padding: 0.75em;
 	text-transform: none;
+
+	a {
+		display: block;
+	}
 }
+*/
 
-.lt-place {
+.service-btn {
 	background: #384A53;
-	max-width: 731px;
-	padding: 0.75em;
+	display: block;
+	font-size: 1.25em; // 20px
+	margin-bottom: 0.75em;
+	padding: 0.75em 1em;
+	position: relative;
 	text-transform: none;
-}
 
-.per-place{
-	background: #384A53;
-	max-width: 731px;
-	padding: 0.75em;
-	text-transform: none;
-}
+	&:before {
+		content: ''; // needs to be blank
+		left: 0; // left of our container (anchor tag)
+		margin-top: -11px; // half the height of the object being used - the triangle
+		position: absolute; // so we can position anywhere within our link
+		top: 50%; // vertically center
 
-.sch-sup-staff {
-	background: #384A53;
-	max-width: 731px;
-	padding: 0.75em;
-	text-transform: none;
-}
+		/* Triangle */
+		border-style: solid;
+		border-width: 11px 0 11px 12px;
+		border-color: transparent transparent transparent #ffffff;
+		height: 0;
+		width: 0px;
 
-.sch-maint {
-	background: #384A53;
-	max-width: 731px;
-	padding: 0.75em;
-	text-transform: none;
+	}
 }
 
 
 .services-sub-title {
+	color: #2D3E50;
 	max-width: 731px;
+	margin-top: 2em;
+	padding-top: 0;
 	text-transform: uppercase;
 
 }
@@ -69,3 +75,10 @@
 	max-width: 731px;
 	color: #6BC097;
 }
+
+.service-article-text {
+	color: #333333;
+	margin-bottom: 2.125em;
+	font-size: 1.31em;
+}
+
