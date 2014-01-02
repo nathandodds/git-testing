@@ -3,6 +3,8 @@
 
         public function index()
         {
+        	$this->addStyle('styles');
+        	
 			$this->setView('schools/index');
         }
 

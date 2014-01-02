@@ -47,4 +47,40 @@
 	}
 }
 
+.schools-header{
+	background: url("../images/schools-head.png") 0 0 no-repeat;
+	border-bottom: 3px solid;
+	border-color: #B1E0E4;
+	height: 149px;
+	line-height: 149px;
+	margin-bottom: 1em;
+	text-align: center;
+	width: 1224px;
+
+	.schools-header-title{
+		color: #FFF; // white
+		display: inline-block;
+		font-size: 3.125em;
+		line-height: normal;
+		margin: 0;
+		padding-left: 100px;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		vertical-align: middle;
+
+		&:before {
+			background: url("../images/school-icon.png") 0 0 no-repeat;
+			content: '';
+			height: 90px;
+			left: 0;
+			margin-top: -45px;
+			position: absolute;
+			top: 50%;
+			width: 90px;
+		}
+	}
+}
+
+
 

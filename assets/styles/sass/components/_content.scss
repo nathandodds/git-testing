@@ -82,3 +82,50 @@
 	font-size: 1.31em;
 }
 
+.schools-article {
+	float: left;
+	max-width: 731px;
+
+	p {
+		color: #2D3E50;
+		font-size: 1.5em;
+	}
+}
+
+
+.schools-post{
+	background: #384A53;
+	padding: 0.75em 16.43em; 
+
+	.post-btn {
+		background: #6BC097;
+		border: none;
+		color: #FFF;
+		padding: 0.75em 2.5em;
+		text-transform: uppercase;
+
+		-webkit-border-radius: 0.5em; /* rounded corners of 6px */
+       	-moz-border-radius: 0.5em;
+    		border-radius: 0.5em;
+
+    	-webkit-appearance: none;
+	}
+}
+.experience-form{
+	color: #333;
+	margin-top:2em;
+}
+.experience-form label{
+	color: #333;
+	padding-right: 8em;
+	padding-top:2em;
+}
+.job-form{
+	color: #333;
+	margin-top: 2em;
+}
+.job-form label{
+	color: #333;
+	padding-right: 8em;
+	padding-top:2em;
+}

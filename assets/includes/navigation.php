@@ -3,7 +3,7 @@
 		<li class= "logo-img"><a href="<?php echo DIRECTORY; ?>"><img src="<?php echo DIRECTORY; ?>assets/images/logo.png" /></a></li>
 		<li><a href="<?php echo DIRECTORY; ?>">About</a></li>
 		<li><a href="#">Candidates</a></li>
-		<li><a href="#">Schools</a></li>
+		<li><a href="<?php echo DIRECTORY; ?>schools">Schools</a></li>
 		<li><a href="<?php echo DIRECTORY; ?>services">Services</a></li>
 		<li><a href="#">Testimonials</a></li>
 		<li><a href="#">Contact</a></li>
