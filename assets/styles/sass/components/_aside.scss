@@ -33,7 +33,8 @@ article {
 	float: left;
 	height: 39px;
 	margin-right: 0.625em; /* 10px */
-	width: 39px;
+	padding-left: 0.5em;
+	/*width: 39px;*/
 }
 
 .cta-info {
@@ -45,11 +46,20 @@ article {
 	margin-top: 1em;
 	padding: 0.1em;
 
+	p {
+		padding-left: 1em;
+	}
+
 	h3 {
 		background: url("../images/green-transparent-bg.png") 0 0 repeat;
 		display: inline-block;
 		line-height: normal;
 		padding: 0.25em;
+		vertical-align: middle;
+	}
+
+	h3 img {
+		padding-left: 1em;
 	}
 
 	.service-img {
@@ -58,6 +68,45 @@ article {
 		line-height: 122px;
 		width: 255px;
 	}
+
+	a {
+		color: #6BC097;
+		text-decoration: none;
+	}
+}
+
+.cv {
+	background: #384A53;
+	margin-top: 1em;
+	//padding-left: 2em;
+	padding: 1em 0.5em;
+
+	h3 {
+		margin: 0 0 0 0.5em;
+	}
+}
+
+.cv p {
+	color: #FFF;
+	margin: 0.5em 0 0;
+	padding-left: 3.25em;
+}
+
+.cv-img {
+	display: block;
+	float: left;
+	height: 39px;
+	margin-right: 0.625em; /* 10px */
+	padding-left: 0.5em;
+	/*width: 39px;*/
+}
+
+.cv-info {
+	overflow: hidden;
+}
+
+/*.cv p {
+	padding: 0em 2em 1em 4em;
 }
 
 .cv {
@@ -65,8 +114,12 @@ article {
 	color: #FFF;
 	margin-top: 1em;
 	padding: 0.1em;
+
+	img{
+		padding-left: 0.5em;
+	}
 }
 
 .find {
 	color: #6BC097;
-}
+}*/

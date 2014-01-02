@@ -1,6 +1,6 @@
 <nav>
 	<ul class="nav-list">
-		<li class= "logo-img"><a href="#"><img src="<?php echo DIRECTORY; ?>assets/images/logo.png" /></a></li>
+		<li class= "logo-img"><a href="<?php echo DIRECTORY; ?>"><img src="<?php echo DIRECTORY; ?>assets/images/logo.png" /></a></li>
 		<li><a href="<?php echo DIRECTORY; ?>">About</a></li>
 		<li><a href="#">Candidates</a></li>
 		<li><a href="#">Schools</a></li>

@@ -26,3 +26,25 @@
 	}
 }
 
+.services-header{
+	background: url("../images/service-bg.jpg") 0 0 no-repeat;
+	border-bottom: 3px solid;
+	border-color: #B1E0E4;
+	height: 149px;
+	line-height: 149px;
+	text-align: center;
+	width: 1224px;
+
+	.services-header-title{
+		color: #FFF; // white
+		display: inline-block;
+		font-size: 3.125em;
+		line-height: normal;
+		margin: 0;
+		text-align: center;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+}
+
+
