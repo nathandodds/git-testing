@@ -1,4 +1,3 @@
-<?php include "assets/includes/navigation.php"; ?>
 <header class="header">
 	<h1 class="header-title">About</h1>
 </header>

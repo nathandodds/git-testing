@@ -29,3 +29,4 @@
     </head>
     <body>
         <?php require "assets/includes/ie-notification.php"; flush(); ?>
+        <?php include "assets/includes/navigation.php"; ?>
