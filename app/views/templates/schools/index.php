@@ -6,14 +6,14 @@
 	<form>
 		<p>Fill out the information below to post your vacancy</p>
 		<p>Job Role</p>
-		<div class="job-form">
-			<p class="form-imput"><label>Job Type</label><input type="text" /></p>
-			<p class="form-imput"><label>Availability</label><input type="text" /></p>
+		<div class="form-holder">
+			<p><label>Job Type</label><input type="text" class="form-inputs" /></p>
+			<p><label>Availability</label><input type="text" class="form-inputs" /></p>
 		</div>
 		<p>Experience Needed</p>
-		<div class="experience-form">
-			<p class="form-imput"><label>Job Type</label><input type="text" /></p>
-			<p class="av-imput"><label>Availability</label><input type="text" /></p>
+		<div class="form-holder">
+			<p><label>Job Type</label><input type="text" class="form-inputs" /></p>
+			<p><label>Availability</label><input type="text" class="form-inputs" /></p>
 		</div>
 		<div class="schools-post">
 			<input type="submit" value="post" class="post-btn" />

@@ -3,7 +3,7 @@
 	float: left;
 	//overflow: hidden;
 	//margin-left: 70px;
-	max-width: 731px;
+	width: 731px;
 	margin-top: 1em;
 }
 
@@ -12,7 +12,7 @@
 }
 .services-article {
 	float: left;
-	max-width: 731px;
+	width: 731px;
 }	
 
 .services-article p {
@@ -84,7 +84,7 @@
 
 .schools-article {
 	float: left;
-	max-width: 731px;
+	width: 731px;
 
 	p {
 		color: #2D3E50;
@@ -101,6 +101,7 @@
 		background: #6BC097;
 		border: none;
 		color: #FFF;
+		cursor: pointer;
 		padding: 0.75em 2.5em;
 		text-transform: uppercase;
 
@@ -111,6 +112,8 @@
     	-webkit-appearance: none;
 	}
 }
+
+/*
 .experience-form{
 	color: #333;
 	margin-top:2em;
@@ -128,4 +131,39 @@
 	color: #333;
 	padding-right: 8em;
 	padding-top:2em;
+}
+*/
+
+.form-holder {
+	background: #F5F5F5;
+	padding: 1em 1em;
+
+	p {
+		font-size: 1.25em;
+	}
+
+	label,
+	.form-inputs {
+		display: inline-block;
+		vertical-align: center;
+	}
+
+	label {
+		width: 206px;
+	}
+
+	.form-inputs {
+		border: 1px solid #AFDFE4;
+		font-size: 16px;
+		padding: 0.5em;
+		width: 375px;
+
+		-webkit-border-radius: 0.375em; /* rounded corners of 6px */
+       	-moz-border-radius: 0.375em;
+    		border-radius: 0.375em;
+
+    	&:focus {
+    		outline: none;
+    	}
+	}
 }
