@@ -1,0 +1,56 @@
+/*
+
+STRUCTURE
+---------
+
+*/
+
+//fonts
+@import "fonts/fonts";
+
+// Variables
+@import "config/variables";
+
+// Components
+@import "components/header";
+@import "components/navigation";
+
+//Article
+@import "components/article";
+
+//Aside
+@import "components/aside";
+
+//Footer
+@import "components/footer";
+
+// Framework
+//@import "framework/grid";
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	      	box-sizing: border-box;
+
+	//@include box-sizing(border-box);
+}
+
+body {
+	font-family: $base-font;
+	font-size: 1em;
+	margin: 0 auto;
+	width: 1224px;
+
+	-webkit-text-size-adjust: none; // stops the text from becoming bigger on orientation on iPhone / iPad devices
+	  -webkit-font-smoothing: antialiased; // makes the font smooth on webkit devices
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.container {
+	margin: auto;
+	overflow: hidden;
+	width: $container-width;
+}

@@ -1,0 +1,72 @@
+.aside {
+	float: right;
+	max-width: 254px;
+}
+
+article {
+	h3 {
+		color: #FFF;
+		font-family: 'TTBold';
+		font-size: 1.25em; /* 20 / 16 = 1.25 */
+		text-transform: uppercase;
+	}
+}
+
+.vacancy {
+	background: #6BC097;
+	margin-top: 1em;
+	//padding-left: 2em;
+	padding: 1em 0.5em;
+
+	h3 {
+		margin: 0 0 0.5em;
+	}
+}
+
+.vacancy-text {
+	color: #FFF;
+	margin: 0.5em 0 0;
+}
+
+.stick-man {
+	display: block;
+	float: left;
+	height: 39px;
+	margin-right: 0.625em; /* 10px */
+	width: 39px;
+}
+
+.cta-info {
+	overflow: hidden;
+}
+
+.services {
+	background: #F5F5F5;
+	margin-top: 1em;
+	padding: 0.1em;
+
+	h3 {
+		background: url("../images/green-transparent-bg.png") 0 0 repeat;
+		display: inline-block;
+		line-height: normal;
+		padding: 0.25em;
+	}
+
+	.service-img {
+		background: url("../images/service-bg.jpg") 0 0 no-repeat;
+		height: 122px;
+		line-height: 122px;
+		width: 255px;
+	}
+}
+
+.cv {
+	background: #384A53;
+	color: #FFF;
+	margin-top: 1em;
+	padding: 0.1em;
+}
+
+.find {
+	color: #6BC097;
+}

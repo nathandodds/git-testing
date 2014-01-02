@@ -1,0 +1,63 @@
+.nav-list {
+	background: #384A53;
+	border-bottom: 3px solid;
+	border-color: #6EC499;
+	list-style: none;
+	margin: 0 auto;
+	//padding: 1em;
+	text-align: center;
+
+	li {
+		color: $brand-color;
+		display: inline-block;
+		font-family: 'TTBold';
+		list-style: none;
+        padding: 0.5em;
+       
+        text-transform: uppercase;
+        vertical-align: middle;
+	}
+
+	a {
+		color: $brand-color;
+		list-style: none;
+		text-decoration: none;
+		font-size: 12px;
+	}
+}
+
+.logo-img a {
+	//float: left;
+	//margin-left: -10px;	
+}
+
+.login a {
+	background: #6BC097;
+	padding: 0.5em;
+	-webkit-border-radius: 0.2em; /* rounded corners of 6px */
+       -moz-border-radius: 0.2em;
+    		border-radius: 0.2em;	
+}
+
+.sign-up a {
+	background: #AFDFE4;
+	padding: 0.5em;
+	-webkit-border-radius: 0.2em; /* rounded corners of 6px */
+       -moz-border-radius: 0.2em;
+    		border-radius: 0.2em;
+}
+
+.emerg-support a {
+	background: #E64C3C;
+	padding: 0.5em;
+	-webkit-border-radius: 0.2em; /* rounded corners of 6px */
+       -moz-border-radius: 0.2em;
+    		border-radius: 0.2em;
+    vertical-align: middle;
+
+}
+
+.clock-img{
+	margin: 0.1em;
+	vertical-align: middle;
+}
