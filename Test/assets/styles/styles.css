@@ -1,0 +1,149 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body { /* this is used to adjust the entire body of code*/
+	background: #C6C8CF; /* this is to adjust the background*/
+	font-family: arial; /* this is too adjust the font style */
+	margin: 0 auto; /* this is too add a margin */
+	/*max-width: 960px;*/ /* this is to set a max width */
+}
+
+.main {
+	background: red;
+	clear: both;
+}
+
+.container {
+	background: #FFF; /* White */
+	margin: auto;
+	max-width: 60em; /* 960px */
+}
+
+h1 {
+	background: linear-gradient(180deg, #157B9B, #C6C8CF); /* this is how to add a gradient to the back ground. */ 
+	color: #0D2336; /* this is how to adjust the text color */
+	font-family: sans-serif; /* this is how to change the font style */
+    font-size: 3.4375em; /* 55px */ /* this is how to adjust the font size */
+    height: 100px; /* how to adjust the height */
+    margin-top: -2.5px; /* how to add a margin, the margin can be positive or negative. */ 
+	padding-top: 20px; /* padding is used to add spacing between images or text. */
+    text-align: center; /* how to align text- center, left or right. */
+}
+
+.logo-head { /* this is to add a css style to a html class */
+	margin-left: 30px; /* px stands for pixel */
+}
+
+.nav {
+   color: white;
+   float: left; /* allows you to float text or images to the left or the right */
+   margin-top: 15px;
+   padding-right: 20px black solid;
+   padding-top: 10px black solid;
+   text-align: middle;
+   text-decoration: none; /* can apply text decorations such as under line, over line or none */
+   width: 15%; /* width can be set as a percentage. */
+}
+
+.nav-links li {
+	color: white;
+	padding: 0.5em 0; /* 8px = top + bottom 0px = left and right */
+	text-decoration: none;
+}
+
+.nav-links li a {
+	color: white;
+	text-decoration: none;
+}
+
+.content {
+	float: left;
+	width: 85%;
+}
+
+.top-content {
+	margin-top: -60px;
+}
+
+.box {
+	float: left;
+	padding: 0.5em;
+	word-break: break-word;
+	width: 33.33333%; /* this is a third of the webpage. */
+}
+
+.boattwo, /* can apply css to mulitple html classes */
+.boat,
+.chinook,
+.google,
+.logo-img,
+.spider {
+	display: block; /* display images in a block format */
+	/*height: 200px;*/
+	width: 250px;
+}
+
+.subtitle {
+	color: #00AEEF; /* basic colors are read by css but more complex colors are used by applying a hexidecimal value to them */
+	font-weight: bold; /* allows you to make text bold */
+	text-decoration: underline;
+}
+
+footer {
+	clear: both; /*?*/
+	padding-top: 10px;
+}
+
+.logo-footer{
+	margin: 0 0 25px 75px; /* margins are set like a box going from top, right, bottom, left */
+}
+
+.bottom-text{
+	float:right;
+	text-align: right;
+}
+
+.footer{
+	background: #157B9B;
+	color: #0D2336;      
+	float: center;
+	margin: 10px 0 0 0;	
+	overflow: auto; /*?*/
+	text-align: center;
+	width: 100%;
+}
+
+/*
+
+
+.tester {
+	height: 100px;
+	letter-spacing: -0.32em;
+	line-height: 100px;
+	list-style: none;
+	padding: 0;
+}
+
+.tester li {
+	border: 1px solid red;
+	display: inline-block;
+	letter-spacing: normal;
+	line-height: normal;
+	width: 33.3333%;
+}
+
+.tester .top {
+	vertical-align: top;
+}
+
+.tester .middle {
+	vertical-align: middle;
+}
+
+.tester .bottom {
+	vertical-align: bottom;
+}
+*/

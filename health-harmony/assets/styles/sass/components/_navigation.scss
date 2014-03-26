@@ -1,0 +1,59 @@
+.nav {
+	line-height: 150px;
+	text-align: center;
+	width: 100%;
+
+	li {
+		display: inline-block;
+		margin: 0 2.75em;
+	}
+
+	a {
+		color: #CCCCCC;
+		display: inline-block;
+		font-family: 'Helvitica';
+		font-size: 0.8125em;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover,
+		&:focus {
+			color: #333333;
+		}
+	}
+}
+
+.health-nav-logo {
+	height: 40px;
+	width: 94px;
+	@include img-replace;
+	@include sprite (0 0);
+	vertical-align: middle;
+}
+
+.nav-social-links__twitter,
+.nav-social-links__fb {
+	height: 28px;
+	width: 28px;
+	@include img-replace;
+	@include sprite (0 0);
+	vertical-align: middle;
+}
+
+.nav-social-links__twitter {
+	@include sprite (-95px 0);
+
+	&:hover,
+	&:focus {
+		@include sprite (-155px 0);
+	}
+}
+
+.nav-social-links__fb {
+	@include sprite (-124px 0);
+
+	&:hover,
+	&:focus {
+		@include sprite (-187px 0);
+	}
+}

@@ -1,0 +1,183 @@
+/*Home page*/
+
+.home-content {
+	text-align: center;
+}
+
+.top-text {
+	h2 {
+		color: #B94D4E;
+		font-family: 'Times';
+		font-size: 1.875em;
+		line-height: 44px;
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+	}
+
+	span {
+		display: inline-block;
+		font-size: 2.25em;
+		vertical-align: middle;
+	}
+
+	p {
+		color: #4D4D4D;
+		font-size: 1em;
+		font-family: 'Helvetica';
+		margin: 0;
+	}
+}
+
+/*Home rollover women*/
+
+.top-cta {
+	padding: 2em 0 !important;
+	text-align: center;
+
+	.cta-btn {
+		margin: 0 1.5em;
+	}
+}
+
+.top-cta-wrapper {
+	display: inline-block;
+	width: 290px;
+}
+
+.top-cta-wrapper__text {
+	color: #4D4D4D;
+	display: inline-block;
+	font-family: 'Helvetica';
+	font-size: 0.875em;
+	margin: auto;
+	span {
+		display: block;
+	}
+}
+
+/*Woman circled images rollover*/
+
+.cta-btn {
+	border: none;
+	display: inline-block;
+	height: 239px;
+	line-height: 239px;
+	overflow: hidden;
+	width: 239px;
+
+	@include border-radius(50%);
+
+	&:hover {
+		.cta-btn-wrapper {
+			background: rgba(185, 77, 78, 0.75);
+		} 
+	}
+}
+
+.cta-btn-wrapper {
+	background: rgba(201, 149, 149, 0.6);
+	height: 239px;
+	line-height: 239px;
+	vertical-align: middle;
+	width: 239px;
+
+	@include border-radius(50%);
+	@include transition();
+
+}
+
+.cta-content {
+	display: inline-block;
+	line-height: normal;
+	margin: 0 auto;
+	width: 239px;
+	vertical-align: middle;
+
+	h3, p  {
+		color: #fff;
+		display: inline-block;
+		line-height: normal;
+		margin: auto;
+		vertical-align: middle;
+	}
+
+	h3 {
+		font-family: 'Helvetica';
+		font-size: 30px;
+	}
+
+	p {
+		border: 1px solid #fff;
+		font-family: 'Times';
+		font-size: 0.9375em;
+		padding: 0.25em 0.5em;
+		margin-top: 0.5em;
+	}
+}
+
+.cta-btn--story {
+	background: url("#{$image-path}our-story-woman.png") 0 0 no-repeat;
+}
+
+.cta-btn--services {
+	background: url("#{$image-path}cta-services-woman.png") 0 0 no-repeat;
+}
+
+.cta-btn--vouchers {
+	background: url("#{$image-path}cta-vouchers-woman.png") 0 0 no-repeat;
+}
+
+
+/*Popular Services*/
+
+.popular-services {
+	background: #FFF8E9;
+	color: #4D4D4D;
+	font-family: 'Helvetica';
+	padding: 3em 0;
+	text-align: center;
+
+	h3 {
+		font-size: 1.25em;
+		font-weight: bold;
+		margin-top: 0;
+	}
+
+	p {
+		font-size: 1em;
+		margin-bottom: 1.5em;
+
+		span {
+			display: block;
+		}
+	}
+}
+
+.popular-services-treatment {
+	display: inline-block;
+	margin: 0 2em;
+
+	a {
+		border: 1px solid #4D4D4D;
+		color: #4D4D4D; 
+		display: inline-block;
+		font-size: 0.875em;
+		font-family: 'Times';
+		margin-top: 1em;
+		padding: 0.25em 1em;
+		text-decoration: none;
+	}
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.popular-services-image {
+	display: block;
+
+}

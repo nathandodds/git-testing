@@ -1,0 +1,146 @@
+.footer {
+	height: 174px;
+	line-height: 174px;
+	margin-top: 3em !important;
+	overflow: hidden;
+	padding: 0!important;
+}
+
+.footer-block {
+	display: inline-block;
+	line-height: normal;
+	margin: 0;
+	vertical-align: top;
+	padding: 1.25em 1em;
+
+	&:first-child {
+		padding: 1.25em 0;
+	}
+}
+
+.footer-block__title {
+	display: inline-block;
+	margin-top: 0;
+	vertical-align: top;
+
+	p {
+		color: #CC6666;
+		margin: 0;
+		font-size: 0.75em;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+
+.footer-block__content {
+	display: inline-block;
+	margin: 0 1em;
+
+	p {
+		color: #808080;
+		font-size: 0.8125em;
+		margin: 0 0 0.5em 0;
+	}
+
+	span {
+			display: inline-block;
+			width: 85px;
+		}
+}
+
+.footer-block--border {
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+
+}
+
+
+/*Social Links*/
+
+.footer-block__content--contact {
+	position: relative;
+
+	span {
+		display: block;
+	}
+}
+
+.footer-twitter,
+.footer-fb {
+	display: inline-block;
+	height: 28px;
+	margin-top: 1em;
+	width: 28px;
+	@include img-replace;
+	@include sprite (0 0);
+	vertical-align: middle;
+}
+
+.footer-twitter {
+	@include sprite (-95px 0);
+	margin-right: 0.5em;
+
+	&:hover,
+	&:focus {
+		@include sprite (-155px 0);
+	}
+}
+
+.footer-fb {
+	@include sprite (-124px 0);
+	margin-left: 0.5em;
+
+	&:hover,
+	&:focus {
+		@include sprite (-187px 0);
+	}
+}
+
+/*Storm Logo and links*/
+
+.footer-storm {
+	border-top: 1px solid #999999;
+	height: 101px;
+	padding: 0 !important;
+	margin-top: 1.5em !important;
+}
+
+.footer-storm-list {
+	padding-left: 0;
+	width: 345px;
+	float: left;
+	margin: 1em 0 0;
+
+	li {
+		display: inline-block;
+		list-style: none;
+	}
+
+	a {
+		color: #999999;
+		font-size: 0.75em;
+		margin: 0 0.5em;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover,
+		&:focus {
+			color: #333333;
+		}
+	}
+}
+
+.storm-logo {
+	display: inline-block;
+	height: 11px;
+	margin-top: 1em;
+	float: right;
+	width: 141px;
+	@include img-replace;
+	@include sprite (0 -43px);
+
+	&:hover,
+	&:focus {
+		@include sprite (0 -56px);
+	}
+}

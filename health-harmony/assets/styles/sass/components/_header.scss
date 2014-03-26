@@ -1,0 +1,61 @@
+.header {
+	background: $brand-colour url("#{$image-path}header/home-header-bg.png") center center repeat;
+	color: #fff;
+	font-family: 'Helvetica';
+	height: 350px;
+	line-height: 350px;
+	text-align: center;
+	width: 100%;
+
+	h1 {
+		font-size: 2.5em; 
+	}
+
+	p {
+		font-size: 1em;
+	}
+}
+
+.header-title {
+	span {
+		display: block;
+	}
+}
+
+.home-header-content {
+	display: inline-block;
+	line-height: normal;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.home-header-woman {
+	height: 381px;
+	width: 220px;
+	float: left;
+	margin-top: -39px;
+	margin-right: 3em;
+}
+
+.home-header-content__text {
+	margin-top: 4em;
+	overflow: hidden;
+}
+
+.header-contact-info {
+	font-size: 0.875em;
+
+	a {
+		border: solid 1px #fff;
+		color: #fff;
+		display: inline-block;
+		margin-right: 1em;
+		padding: 0.5em 1.5em;
+		font-family: 'Times';
+		text-decoration: none;
+	}
+
+	p {
+		display: inline-block;
+	}
+}

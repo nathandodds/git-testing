@@ -1,0 +1,116 @@
+/*Book Appointment Bar*/
+
+.logo-page-break {
+	border: none;
+	background: url("#{$image-path}small-logo-page-break.png") center center no-repeat;
+	height: 35px;
+	margin: auto;
+	width: 100%;
+}
+
+.book-appointent {
+	color: #4D4D4D;
+	font-family: 'Helvetica';
+	text-align: center;
+
+	h3 {
+		font-weight: bold;
+		font-size: 1.25em;
+		margin: 0.5em 0;
+	}
+
+	p {
+		font-size: 1em;
+		margin-top: 0;
+
+		span {
+			display: block;
+		}
+	}
+}
+
+.appointment-number {
+	background: #4D4D4D;
+	color: #fff;
+	display: inline-block;
+	font-family: 'Times';
+	padding: 0.25em 1em;
+}
+
+/*Address and Opening hours flava bar*/
+
+.address-bar {
+	background: $brand-colour;
+	text-align: center;
+	height: 74px;
+	line-height: 74px;
+
+	a {
+		border: 2px solid #fff;
+		color: #fff;
+		display: inline-block;
+		font-family: 'Times';
+		line-height: normal;
+		padding: 0.5em 1em;
+		text-decoration: none;
+		vertical-align: middle;
+
+		&:hover,
+		&:focus {
+			background: #fff;
+			color: $brand-colour;
+		}
+	}
+}
+
+/*Free Consultations flava bar*/
+
+.free-consultation {
+	background: $brand-colour;
+	color: #fff;
+	font-family: 'Helvetica';
+	margin-top: 3em;
+	padding: 2.25em 0;
+	text-align: center;
+
+	h3 {
+		font-weight: bold;
+		font-size: 1.25em;
+		margin:0 0 0.5em 0;
+
+		span {
+			text-transform: uppercase;
+		}
+	}
+
+	p {
+		font-size: 1em;
+		margin: 0;
+
+		span {
+			display: block;
+		}
+	}
+
+	.consultaion-number {
+		border: 1px solid #fff;
+		background: #fff;
+		color: $brand-colour;
+		display: inline-block;
+		font-family: 'Times';
+		padding: 0.25em 1em;
+		margin-top: 1em;
+	}
+}
+
+.free-consultation-content {
+	line-height: normal;
+	vertical-align: middle;
+}
+
+/*Only the best products bar*/
+
+.popular-product-images {
+	height: 82px;
+	width: 880px;
+}
